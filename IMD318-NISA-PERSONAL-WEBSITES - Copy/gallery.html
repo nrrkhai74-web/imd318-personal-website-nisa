@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Nur Khairunnisa 'Afifah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">NKA</a>
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="biodata.html"><i class="fas fa-user"></i> Biodata</a></li>
+                <li><a href="experience.html"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="education.html"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="family.html"><i class="fas fa-users"></i> Family</a></li>
+                <li><a href="gallery.html" class="active"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="sitemap.html"><i class="fas fa-sitemap"></i> Site Map</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-images"></i> Photo Gallery</h1>
+            <p>Visual journey through academic, personal, and professional moments</p>
+        </div>
+    </header>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="family">Family</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+            </div>
+            <div class="gallery-info">
+                <p><i class="fas fa-info-circle"></i> Click on any image to view larger version with details</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="gallery-container">
+                <!-- Academic Category -->
+                <div class="gallery-item academic" data-category="academic">
+                    <img src="assets/images/gallery/uitm-campus-rembau.jpg" alt="UiTM Campus" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>UiTM Campus Life</h3>
+                        <p>Academic activities at UiTM Rembau campus</p>
+                        <div class="gallery-date">2023-Present</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item academic" data-category="academic">
+                    <img src="assets/images/gallery/classmates.jpg" alt="Diploma Classmates" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Diploma Classmates</h3>
+                        <p>My Diploma Classmates</p>
+                        <div class="gallery-date">2023-Presents</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item academic" data-category="academic">
+                    <img src="assets/images/gallery/examination.jpg" alt="Examination Month" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Examination Month</h3>
+                        <p>Pictures during examination period</p>
+                        <div class="gallery-date">2025</div>
+                    </div>
+                </div>
+                
+                <!-- Events Category -->
+                <div class="gallery-item events" data-category="events">
+                    <img src="assets/images/gallery/peers-synergy.jpg" alt="Leadership Camp" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Peers Synergy Day 1.0: Serenity in Leadership</h3>
+                        <p>Student leadership development program</p>
+                        <div class="gallery-date">June 2025</div>
+                    </div>
+                </div>
+                
+                <!-- Family Category -->
+                <div class="gallery-item family" data-category="family">
+                    <img src="assets/images/gallery/family.jpg" alt="Family Members" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Family Members</h3>
+                        <p>A photos of my family</p>
+                        <div class="gallery-date">April 2025</div>
+                    </div>
+                </div>
+                
+                <!-- Projects Category -->
+                <div class="gallery-item projects" data-category="projects">
+                    <img src="assets/images/gallery/personal-design.jpg" alt="Design Project" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Design Projects</h3>
+                        <p>Personal design work</p>
+                        <div class="gallery-date">August 2025</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item projects" data-category="projects">
+                    <img src="assets/images/gallery/intership-moments.jpg" alt="Industrial Training" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Industrial Training</h3>
+                        <p>Projects during ADTEC JTM training</p>
+                        <div class="gallery-date">September 2025</div>
+                    </div>
+                </div>
+                
+                <!-- Personal Category -->
+                <div class="gallery-item personal" data-category="personal">
+                    <img src="assets/images/gallery/hobby-hiking.jgp.jpg" alt="Personal Hobby" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Personal Interests</h3>
+                        <p>Hobbies and personal development activities (Hiking)</p>
+                        <div class="gallery-date">2024</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item personal" data-category="personal">
+                    <img src="assets/images/gallery/travel.jpg" alt="Travel" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3>Travel & Exploration</h3>
+                        <p>Visits to historical and cultural sites</p>
+                        <div class="gallery-date">2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Large view">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+                <div class="lightbox-meta">
+                    <span id="lightbox-date"></span> | 
+                    <span id="lightbox-category"></span>
+                </div>
+            </div>
+        </div>
+        <a class="lightbox-prev">&#10094;</a>
+        <a class="lightbox-next">&#10095;</a>
+    </div>
+
+    <!-- Video Gallery -->
+    <section class="video-gallery">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-video"></i> Video Highlights</h2>
+            <div class="video-container">
+                <div class="video-item">
+                    <div class="video-wrapper">
+                        <video controls poster="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80">
+                            <source src="assets/videos/events-highlights-2026.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Event Highlights</h3>
+                        <p>Compilation of recents event participation and activities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Section -->
+    <section class="audio-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-music"></i> Audio Background</h2>
+            <div class="audio-container">
+                <div class="audio-item">
+                    <h3><i class="fas fa-headphones"></i> Audio Background</h3>
+                    <p>The audio background for the gallery</p>
+                    <audio controls>
+                        <source src="assets/audio/Choking on Flowers.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="audio-duration">Duration: 3:28</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Photo & Media Gallery</h3>
+                    <p>This gallery contains personal, academic, and professional photos and media.</p>
+                    <p><strong>Total Images:</strong> 9</p>
+                    <p><strong>Last Updated:</strong> <span id="galleryUpdateDate"></span></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Gallery Categories</h3>
+                    <ul>
+                        <li><a href="#" class="filter-link" data-filter="academic">Academic Life</a></li>
+                        <li><a href="#" class="filter-link" data-filter="events">Events & Activities</a></li>
+                        <li><a href="#" class="filter-link" data-filter="family">Family Moments</a></li>
+                        <li><a href="#" class="filter-link" data-filter="projects">Projects & Work</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Nur Khairunnisa 'Afifah Binti Nor Azman. | Gallery Page | IMD318 Individual Project</p>
+                <p class="ownership">All images and media are personal property or used with permission</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        document.getElementById('galleryUpdateDate').textContent = document.lastModified;
+        
+        // Gallery filtering functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const filterLinks = document.querySelectorAll('.filter-link');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                galleryItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Filter links in footer
+        filterLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const filterValue = link.getAttribute('data-filter');
+                
+                // Update active button
+                filterButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.getAttribute('data-filter') === filterValue) {
+                        btn.classList.add('active');
+                    }
+                });
+                
+                // If "all" is not in the links, add a manual check
+                if (!document.querySelector(`.filter-btn[data-filter="${filterValue}"]`)) {
+                    document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+                }
+                
+                // Filter items
+                galleryItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxTitle = document.getElementById('lightbox-title');
+        const lightboxDescription = document.getElementById('lightbox-description');
+        const lightboxDate = document.getElementById('lightbox-date');
+        const lightboxCategory = document.getElementById('lightbox-category');
+        const closeLightbox = document.querySelector('.close-lightbox');
+        const prevBtn = document.querySelector('.lightbox-prev');
+        const nextBtn = document.querySelector('.lightbox-next');
+        
+        let currentImageIndex = 0;
+        const galleryImages = Array.from(galleryItems);
+        
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                currentImageIndex = index;
+                updateLightbox();
+                lightbox.style.display = 'block';
+            });
+        });
+        
+        closeLightbox.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+        
+        prevBtn.addEventListener('click', () => {
+            currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+            updateLightbox();
+        });
+        
+        nextBtn.addEventListener('click', () => {
+            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+            updateLightbox();
+        });
+        
+        function updateLightbox() {
+            const item = galleryImages[currentImageIndex];
+            const imgSrc = item.querySelector('.gallery-img').src;
+            const title = item.querySelector('.gallery-overlay h3').textContent;
+            const description = item.querySelector('.gallery-overlay p').textContent;
+            const date = item.querySelector('.gallery-date').textContent;
+            const category = item.getAttribute('data-category');
+            
+            lightboxImg.src = imgSrc;
+            lightboxTitle.textContent = title;
+            lightboxDescription.textContent = description;
+            lightboxDate.textContent = date;
+            lightboxCategory.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+        }
+        
+        // Close lightbox when clicking outside
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
